@@ -1,5 +1,6 @@
 import React from 'react';
+import BannerContainer from './banner';
 
-const HomeContainer = () => <h1>Home</h1>;
+const HomeContainer = () => <BannerContainer />;
 
 export default HomeContainer;

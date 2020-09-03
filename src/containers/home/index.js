@@ -6,6 +6,7 @@ import CollaborateContainer from './collaborate';
 import FasterContainer from './faster';
 import ControlContainer from './control';
 import TeamsContainer from './teams';
+import WoltContainer from './wolt';
 
 const HomeContainer = () => (
   <Layout>
@@ -14,6 +15,7 @@ const HomeContainer = () => (
     <CollaborateContainer />
     <FasterContainer />
     <ControlContainer />
+    <WoltContainer />
     <TeamsContainer />
   </Layout>
 );

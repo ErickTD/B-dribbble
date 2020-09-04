@@ -17,6 +17,7 @@ const QuoteComponent = ({ quote }) => (
         <p className="font-weight-bold m-0">{quote.name}</p>
       </div>
     </div>
+    <div className="clearfix" />
   </div>
 );
 

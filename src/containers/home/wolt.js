@@ -8,6 +8,16 @@ const quotes = [
     img,
     name: 'Juho Uitti, Sales Team',
   },
+  {
+    text: 'Juro Makes it extremely easy to manage contracts, and there is less room for human error.',
+    img,
+    name: 'Juho Uitti, Sales Team 2',
+  },
+  {
+    text: 'Juro Makes it extremely easy to manage contracts, and there is less room for human error.',
+    img,
+    name: 'Juho Uitti, Sales Team 3',
+  },
 ];
 
 const arrowR = (

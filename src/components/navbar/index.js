@@ -4,19 +4,21 @@ const NavbarComponent = () => (
   <header>
     <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark py-3">
       <div className="container-md container-fluid">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div>
+          <button
+            className="navbar-toggler mr-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
+          </button>
           <a href="/" className="navbar-brand">Juro</a>
+        </div>
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav ml-auto align-items-center">
             <li className="nav-item mx-3">
               <a className="nav-link px-3" href="/">Solutions</a>

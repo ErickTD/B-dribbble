@@ -6,10 +6,10 @@ const FasterContainer = () => (
   <section className="py-3 my-3">
     <div className="container-fluid py-3">
       <div className="row justify-content-around align-items-center">
-        <div className="col-sm-12 col-md-6">
+        <div className="col-sm-12 col-md-6 order-sm-2">
           <img className="img-fluid w-100" alt="Get to yes faster" src={img} />
         </div>
-        <div className="col-sm-12 col-md-4">
+        <div className="col-sm-12 col-md-4 order-sm-1">
           <h2 className="display-2 font-weight-bolder">Get to yes faster.</h2>
           <LinecolorsComponent />
           <p className="pb-3">

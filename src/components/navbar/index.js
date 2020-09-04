@@ -21,16 +21,34 @@ const NavbarComponent = () => (
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav ml-auto align-items-center">
             <li className="nav-item mx-3">
-              <a className="nav-link px-3" href="/">Solutions</a>
+              <div className="dropdown">
+                <button className="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                  Solutions
+                </button>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a className="dropdown-item" href="/">Solution 1</a></li>
+                  <li><a className="dropdown-item" href="/">Solution 2</a></li>
+                  <li><a className="dropdown-item" href="/">Solution 3</a></li>
+                </ul>
+              </div>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link px-3" href="/">Case Studies</a>
+              <a className="nav-link text-white px-3" href="/">Case Studies</a>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link px-3" href="/">Resources</a>
+              <div className="dropdown">
+                <button className="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </button>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a className="dropdown-item" href="/">Solution 1</a></li>
+                  <li><a className="dropdown-item" href="/">Solution 2</a></li>
+                  <li><a className="dropdown-item" href="/">Solution 3</a></li>
+                </ul>
+              </div>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link px-3" href="/">Pricing</a>
+              <a className="nav-link text-white px-3" href="/">Pricing</a>
             </li>
             <li className="nav-item">
               <a className="btn btn-outline-light btn-sm px-3" href="/" aria-disabled="true">Login</a>

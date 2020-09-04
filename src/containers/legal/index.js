@@ -1,11 +1,12 @@
 import React from 'react';
 import Layout from '../layout';
 import BannerContainer from './banner';
+import EditorContainer from './editor';
 
 const LegalContainer = () => (
   <Layout>
     <BannerContainer />
-    <h1>Legal page</h1>
+    <EditorContainer />
   </Layout>
 );
 

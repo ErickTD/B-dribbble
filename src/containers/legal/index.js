@@ -7,6 +7,7 @@ import OneSourceContainer from './onesource';
 import ContractDataContainer from './data';
 import CardsContainer from './cards';
 import IntegrationsContainer from './integrations';
+import SkyscannerContainer from './skyscanner';
 
 const LegalContainer = () => (
   <Layout>
@@ -17,6 +18,7 @@ const LegalContainer = () => (
     <ContractDataContainer />
     <CardsContainer />
     <IntegrationsContainer />
+    <SkyscannerContainer />
   </Layout>
 );
 

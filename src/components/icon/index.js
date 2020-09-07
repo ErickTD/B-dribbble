@@ -41,6 +41,7 @@ const IconComponent = ({ icon, extraClass }) => (
     {icon === 'time' && Time}
     {icon === 'shield' && Shield}
     {icon === 'business' && Business}
+    {icon === 'arrow-r' && ArrowR}
   </svg>
 );
 

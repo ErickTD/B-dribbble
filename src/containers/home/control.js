@@ -3,7 +3,7 @@ import LinecolorsComponent from '../../components/linecolors';
 import img from '../../images/home-tasks.png';
 
 const ControlContainer = () => (
-  <section className="py-3 my-3">
+  <section className="section py-3">
     <div className="container py-3">
       <div className="row justify-content-around">
         <div className="col-sm-10 col-md-5">

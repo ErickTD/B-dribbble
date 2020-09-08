@@ -3,7 +3,7 @@ import LinecolorsComponent from '../../components/linecolors';
 import img from '../../images/home-collaborate.png';
 
 const CollaborateContainer = () => (
-  <section className="py-3 my-3">
+  <section className="section py-3">
     <div className="container-fluid py-3">
       <div className="row justify-content-end align-items-center">
         <div className="col-sm-12 col-md-5 col-lg-4">

@@ -3,7 +3,7 @@ import LinecolorsComponent from '../../components/linecolors';
 import img from '../../images/homecreate.png';
 
 const CreateContainer = () => (
-  <section className="py-3 my-3">
+  <section className="section py-3">
     <div className="container py-3">
       <h2 className="display-2 font-weight-bolder">Create contract magic.</h2>
       <LinecolorsComponent />

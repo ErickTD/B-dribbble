@@ -27,7 +27,7 @@ const cards = [
 const IntegrationsContainer = () => (
   <section className="my-3 py-3 bg-light">
     <div className="container my-3 py-3">
-      <h2 className="display-3 pb-3 font-weight-bold w-100" style={{ maxWidth: '550px' }}>
+      <h2 className="display-3 py-3 font-weight-bold w-100" style={{ maxWidth: '550px' }}>
         Integrations your team will love
       </h2>
       <div className="row g-5 mt-3">

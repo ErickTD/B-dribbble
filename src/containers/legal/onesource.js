@@ -3,7 +3,7 @@ import img from '../../images/legal-onesource.png';
 import LinecolorsComponent from '../../components/linecolors';
 
 const OneSourceContainer = () => (
-  <section className="py-3 my-3">
+  <section className="section py-3">
     <div className="container py-3 my-3">
       <div className="row align-items-center g-5">
         <div className="col-sm-12 col-md-4">

@@ -3,7 +3,7 @@ import img from '../../images/legal-editor.png';
 import LinecolorsComponent from '../../components/linecolors';
 
 const EditorContainer = () => (
-  <section className="py-3 my-3">
+  <section className="section-md py-3">
     <div className="container py-3 my-3">
       <div className="row g-5">
         <div className="col-sm-12 col-md-6">

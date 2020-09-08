@@ -11,8 +11,8 @@ const quote = {
 };
 
 const SkyscannerContainer = () => (
-  <section className="py-3 my-3">
-    <div className="container py-3 my-3">
+  <section className="section-md py-3">
+    <div className="container py-3">
       <div className="row justify-content-between align-items-center g-5">
         <div className="col-12 col-md-4">
           <p><img alt="" src={img2} className="img-fluid" /></p>

@@ -4,7 +4,7 @@ import LinecolorsComponent from '../linecolors';
 import IconComponent from '../icon';
 
 const VerticalCardComponent = ({ title, text, icon }) => (
-  <div className="col-12 col-md-3 card border-0 mx-3">
+  <div className="card border-0">
     <div className="card-body">
       <h5>
         <IconComponent icon={icon} extraClass="h1 text-primary" />

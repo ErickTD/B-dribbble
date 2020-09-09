@@ -35,16 +35,18 @@ const cards = [
 ];
 
 const CardsContainer = () => (
-  <section className="section py-3">
-    <div className="container py-3">
+  <section className="section">
+    <div className="container">
       <div className="row g-5 justify-content-around">
         {cards.map((card) => (
-          <VerticalCardComponent
-            key={card.title}
-            title={card.title}
-            text={card.text}
-            icon={card.icon}
-          />
+          <div className="col-md-5 col-lg-4">
+            <VerticalCardComponent
+              key={card.title}
+              title={card.title}
+              text={card.text}
+              icon={card.icon}
+            />
+          </div>
         ))}
       </div>
     </div>

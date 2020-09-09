@@ -36,8 +36,8 @@ const arrowR = (
 const WoltContainer = () => (
   <section className="py-3 bg-light ">
     <div className="container py-3">
-      <div className="row justify-content-between align-items-center py-3">
-        <div className="col-sm-12 col-md-4 offset-md-1">
+      <div className="row justify-content-between align-items-center py-3 gy-5">
+        <div className="col-12 col-md-4 offset-md-1">
           <h1 className="display-4 font-weight-bold font-italic">Wolt</h1>
           <h6 className="mb-3 font-weight-bold lh-lg">
             Creating business partnerships in minutes with
@@ -48,7 +48,7 @@ const WoltContainer = () => (
             {arrowR}
           </a>
         </div>
-        <div className="col-sm-12 col-md-6">
+        <div className="col-12 col-md-6">
           <QuotesComponent quotes={quotes} />
         </div>
       </div>

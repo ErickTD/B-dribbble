@@ -1,11 +1,12 @@
 import React from 'react';
 import LinecolorsComponent from '../../components/linecolors';
 import img from '../../images/homecreate.png';
+import TitleComponent from '../../components/title';
 
 const CreateContainer = () => (
-  <section className="section py-3">
-    <div className="container py-3">
-      <h2 className="display-2 font-weight-bolder">Create contract magic.</h2>
+  <section className="section">
+    <div className="container">
+      <TitleComponent>Create contract magic.</TitleComponent>
       <LinecolorsComponent />
       <p className="w-75 pb-3">
         Contracts are agreed at the happiest point in your business life. Do not

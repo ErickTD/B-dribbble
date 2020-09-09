@@ -1,19 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import QuoteComponent from './quote';
-
-const arrowR = (
-  <svg
-    width="1.5em"
-    height="1.5em"
-    viewBox="0 0 16 16"
-    className="bi bi-arrow-right"
-    fill="currentColor"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-  </svg>
-);
+import IconComponent from '../icon';
 
 const QuotesComponent = ({ quotes }) => {
   let carousel;
@@ -49,7 +37,7 @@ const QuotesComponent = ({ quotes }) => {
         <span className="h1 font-weight-lighter px-2">/</span>
         <span className="pl-2">{quotes.length}</span>
         <button id="carouselCustomNext" className="btn btn-link mx-1" type="submit">
-          {arrowR}
+          <IconComponent icon="arrow-r" size="1.5" />
         </button>
       </div>
     </>

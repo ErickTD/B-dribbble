@@ -4,10 +4,10 @@ import LinecolorsComponent from '../linecolors';
 import IconComponent from '../icon';
 
 const VerticalCardComponent = ({ title, text, icon }) => (
-  <div className="col-12 col-md-3 card border-0 mx-3">
+  <div className="card border-0">
     <div className="card-body">
       <h5>
-        <IconComponent icon={icon} extraClass="h1 text-primary" />
+        <IconComponent icon={icon} size="3" extraClass="h1 text-primary" />
       </h5>
       <h5 className="card-title">{title}</h5>
       <LinecolorsComponent />
@@ -21,7 +21,7 @@ const VerticalCardComponent = ({ title, text, icon }) => (
 VerticalCardComponent.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
-  icon: PropTypes.element.isRequired,
+  icon: PropTypes.string.isRequired,
 };
 
 export default VerticalCardComponent;

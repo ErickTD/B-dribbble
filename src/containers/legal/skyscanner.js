@@ -11,10 +11,10 @@ const quote = {
 };
 
 const SkyscannerContainer = () => (
-  <section className="py-3 my-3">
-    <div className="container py-3 my-3">
+  <section className="section-md">
+    <div className="container">
       <div className="row justify-content-between align-items-center g-5">
-        <div className="col-12 col-md-4">
+        <div className="col-md-4">
           <p><img alt="" src={img2} className="img-fluid" /></p>
           <p className="font-weight-bold">
             Forward-looking legal teams are supercharging contracts with Juro
@@ -24,7 +24,7 @@ const SkyscannerContainer = () => (
             <IconComponent icon="arrow-r" extraClass="ml-3" />
           </a>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-md-6">
           <QuoteComponent quote={quote} />
         </div>
       </div>

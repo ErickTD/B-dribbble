@@ -29,11 +29,11 @@ const teams = [
 ];
 
 const TeamsContainer = () => (
-  <section className="py-3 my-3">
+  <section className="section py-3">
     <div className="container py-3">
       <div className="row gy-5 justify-content-between">
         {teams.map((team) => (
-          <div key={team.title} className="col-sm-12 col-md-5">
+          <div key={team.title} className="col-12 col-md-5">
             <CardComponent team={team} />
           </div>
         ))}

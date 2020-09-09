@@ -7,7 +7,7 @@ const VerticalCardComponent = ({ title, text, icon }) => (
   <div className="card border-0">
     <div className="card-body">
       <h5>
-        <IconComponent icon={icon} extraClass="h1 text-primary" />
+        <IconComponent icon={icon} size="3" extraClass="h1 text-primary" />
       </h5>
       <h5 className="card-title">{title}</h5>
       <LinecolorsComponent />

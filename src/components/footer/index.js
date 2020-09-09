@@ -3,7 +3,7 @@ import ColumnsComponent from './columns';
 
 const FooterComponent = () => (
   <footer className="bg-dark mt-3 pt-3">
-    <div className="clearfix">...</div>
+    <div className="clearfix">.</div>
     <div className="container">
       <div className="row justify-content-between pb-3 gy-5 gy-md-3">
         <div className="col-lg-4 ">
@@ -16,7 +16,7 @@ const FooterComponent = () => (
             </div>
           </div>
         </div>
-        <div className="col-md-auto col-sm-12 ">
+        <div className="col-md-auto">
           <ColumnsComponent />
         </div>
         <div className="col-auto">

@@ -5,7 +5,7 @@ const ColumnsComponent = () => (
   <div className="row">
     {sections.map((section) => (
       <div className="col" key={section.title}>
-        <h6 className="text-primary">{section.title}</h6>
+        <h6 className="text-white">{section.title}</h6>
         <ul className="nav flex-column">
           {section.links.map((link) => (
             <li className="nav-item" key={link.title}>

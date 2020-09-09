@@ -39,9 +39,8 @@ const CardsContainer = () => (
     <div className="container">
       <div className="row g-5 justify-content-around">
         {cards.map((card) => (
-          <div className="col-md-5 col-lg-4">
+          <div className="col-md-5 col-lg-4" key={card.title}>
             <VerticalCardComponent
-              key={card.title}
               title={card.title}
               text={card.text}
               icon={card.icon}

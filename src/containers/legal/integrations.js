@@ -32,8 +32,8 @@ const IntegrationsContainer = () => (
       </h2>
       <div className="row g-5 mt-3">
         {cards.map((card) => (
-          <div className="col-md-6">
-            <LabelCardComponent key={card.title} img={card.img} text={card.text} />
+          <div className="col-md-6" key={card.text}>
+            <LabelCardComponent img={card.img} text={card.text} />
           </div>
         ))}
       </div>

@@ -21,7 +21,7 @@ const VerticalCardComponent = ({ title, text, icon }) => (
 VerticalCardComponent.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
-  icon: PropTypes.element.isRequired,
+  icon: PropTypes.string.isRequired,
 };
 
 export default VerticalCardComponent;
